@@ -66,8 +66,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/entirely/chat-components.git",
-    "directory": "packages/chat-component"
+    "url": "https://github.com/AleRoe/entirely-chat-components.git",
+    "directory": "chat-component"
   },
   "license": "MIT",
   "author": "Entirely Team",

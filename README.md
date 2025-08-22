@@ -69,7 +69,7 @@ function App() {
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/entirely-chat-components.git
+git clone https://github.com/AleRoe/entirely-chat-components.git
 cd entirely-chat-components
 
 # Install dependencies for all packages
@@ -121,9 +121,9 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 ## 🔗 Links
 
 - [NPM Package](https://www.npmjs.com/package/@entirely/react-chat-component)
-- [GitHub Repository](https://github.com/yourusername/entirely-chat-components)
-- [Issues](https://github.com/yourusername/entirely-chat-components/issues)
-- [Discussions](https://github.com/yourusername/entirely-chat-components/discussions)
+- [GitHub Repository](https://github.com/AleRoe/entirely-chat-components)
+- [Issues](https://github.com/AleRoe/entirely-chat-components/issues)
+- [Discussions](https://github.com/AleRoe/entirely-chat-components/discussions)
 
 ## ⭐ Support
 
