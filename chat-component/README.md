@@ -16,7 +16,7 @@ A modern, embeddable React chat component with AI capabilities, built with TypeS
 ## Installation
 
 ```bash
-npm install @entirely/react-chat-component
+npm install @aleroe/react-chat-component
 ```
 
 ### Peer Dependencies
@@ -27,7 +27,7 @@ npm install react react-dom @fluentui/react-components @fluentui/react-icons
 ## Quick Start
 
 ```tsx
-import { EcosystemChatWidget } from '@entirely/react-chat-component';
+import { EcosystemChatWidget } from '@aleroe/react-chat-component';
 import { FluentProvider, webLightTheme } from '@fluentui/react-components';
 
 function App() {
@@ -119,7 +119,7 @@ The component uses FluentUI themes and CSS modules. You can customize the appear
 ### Custom Chat Client
 
 ```tsx
-import { AIChatClient } from '@entirely/react-chat-component';
+import { AIChatClient } from '@aleroe/react-chat-component';
 
 const customClient = new AIChatClient(baseUrl, credential);
 

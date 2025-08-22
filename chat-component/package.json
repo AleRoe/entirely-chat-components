@@ -1,5 +1,5 @@
 {
-  "name": "@entirely/react-chat-component",
+  "name": "@aleroe/react-chat-component",
   "version": "0.1.0",
   "description": "Embeddable React chat component with AI capabilities",
   "main": "./dist/index.js",
@@ -72,6 +72,7 @@
   "license": "MIT",
   "author": "Entirely Team",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

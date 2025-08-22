@@ -15,7 +15,7 @@ A reusable React chat component library with AI capabilities.
 - 📊 **Built-in tabs** for chat, thoughts, and flow visualization
 - ⚡ **TypeScript** with full type safety
 
-**NPM Package**: `@entirely/react-chat-component`
+**NPM Package**: `@aleroe/react-chat-component`
 
 ### [`chat-app`](./chat-app)
 A demo application showcasing the chat component in action.
@@ -29,12 +29,12 @@ A demo application showcasing the chat component in action.
 
 ### Install the Component
 ```bash
-npm install @entirely/react-chat-component
+npm install @aleroe/react-chat-component
 ```
 
 ### Use in Your Project
 ```tsx
-import { EcosystemChatWidget } from '@entirely/react-chat-component';
+import { EcosystemChatWidget } from '@aleroe/react-chat-component';
 import { FluentProvider, webLightTheme } from '@fluentui/react-components';
 
 function App() {
@@ -120,7 +120,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ## 🔗 Links
 
-- [NPM Package](https://www.npmjs.com/package/@entirely/react-chat-component)
+- [GitHub Packages](https://github.com/AleRoe/entirely-chat-components/packages)
 - [GitHub Repository](https://github.com/AleRoe/entirely-chat-components)
 - [Issues](https://github.com/AleRoe/entirely-chat-components/issues)
 - [Discussions](https://github.com/AleRoe/entirely-chat-components/discussions)
