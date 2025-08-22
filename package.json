@@ -1,0 +1,38 @@
+{
+  "name": "entirely-chat-components",
+  "version": "1.0.0",
+  "description": "Monorepo for React chat components and applications",
+  "private": true,
+  "workspaces": [
+    "chat-component",
+    "chat-app"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=chat-component",
+    "build:all": "npm run build --workspaces",
+    "dev:component": "npm run dev --workspace=chat-component",
+    "dev:app": "npm run dev --workspace=chat-app",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "clean": "npm run clean --workspaces --if-present",
+    "install:all": "npm install --workspaces"
+  },
+  "keywords": [
+    "react",
+    "chat",
+    "ai",
+    "components",
+    "typescript",
+    "monorepo"
+  ],
+  "author": "Entirely Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/entirely-chat-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/entirely-chat-components/issues"
+  },
+  "homepage": "https://github.com/yourusername/entirely-chat-components#readme"
+}

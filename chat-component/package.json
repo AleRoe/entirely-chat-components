@@ -1,0 +1,77 @@
+{
+  "name": "@entirely/react-chat-component",
+  "version": "0.1.0",
+  "description": "Embeddable React chat component with AI capabilities",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./styles": "./dist/styles.css"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "dev": "vite",
+    "dev:build": "vite build --watch",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts,.tsx",
+    "clean": "powershell -Command \"Remove-Item -Path 'dist' -Recurse -Force -ErrorAction SilentlyContinue\"",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "dependencies": {
+    "@azure/core-auth": "^1.10.0",
+    "@fluentui/react-components": "^9.68.3",
+    "@fluentui/react-icons": "^2.0.307",
+    "@microsoft/ai-chat-protocol": "^1.0.0-beta.20240814.1",
+    "mermaid": "^11.9.0",
+    "react-markdown": "^9.1.0",
+    "react-textarea-autosize": "^8.5.9",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@typescript-eslint/eslint-plugin": "^8.39.1",
+    "@typescript-eslint/parser": "^8.39.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "typescript": "^5.9.2",
+    "vite": "^5.4.19",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vite-plugin-dts": "^3.9.1",
+    "vitest": "^1.6.1"
+  },
+  "keywords": [
+    "react",
+    "chat",
+    "ai",
+    "component",
+    "embeddable",
+    "typescript",
+    "fluentui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/entirely/chat-components.git",
+    "directory": "packages/chat-component"
+  },
+  "license": "MIT",
+  "author": "Entirely Team",
+  "publishConfig": {
+    "access": "public"
+  }
+}

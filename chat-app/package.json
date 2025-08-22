@@ -1,0 +1,47 @@
+{
+  "name": "entirely-chat-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Demo application using @entirely/react-chat-component",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "format": "prettier --write src"
+  },
+  "dependencies": {
+    "@entirely/react-chat-component": "file:../chat-component",
+    "@fluentui/react-components": "^9.68.3",
+    "@fluentui/react-icons": "^2.0.307",
+    "@react-keycloak/web": "^3.4.0",
+    "keycloak-js": "^26.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@typescript-eslint/eslint-plugin": "^8.39.1",
+    "@typescript-eslint/parser": "^8.39.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "prettier": "^3.2.5",
+    "typescript": "^5.9.2",
+    "vite": "^5.4.19"
+  },
+  "keywords": [
+    "react",
+    "chat",
+    "ai",
+    "component",
+    "demo",
+    "keycloak"
+  ],
+  "author": "Entirely Team",
+  "license": "MIT"
+}

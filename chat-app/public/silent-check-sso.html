@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Silent SSO Check</title>
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' *; script-src 'unsafe-inline' 'self'; connect-src 'self' http://localhost:8080;">
+</head>
+<body>
+    <script>
+        // This page is used by Keycloak for silent SSO checks
+        // It should be served from the same origin as the main application
+        try {
+            const origin = location.origin;
+            if (parent && parent.postMessage) {
+                parent.postMessage(location.href, origin);
+            }
+        } catch (error) {
+            console.warn('Silent SSO check failed:', error);
+        }
+    </script>
+</body>
+</html>
